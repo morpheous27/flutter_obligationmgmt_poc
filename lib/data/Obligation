@@ -1,0 +1,20 @@
+class Obligation{
+    
+    Obligation(this.investment, this.account,this.investorAccountId,this.type,this.effectiveDate,this.trigger,this.monitoringApproach,
+    this.owner,this.nextDueDate,this.nextStatus,this.previousDueDate,this.previousStatus,this.action);
+
+    String investment;
+    String account;
+    String investorAccountId;
+    String type;
+    String effectiveDate;
+    String trigger;
+    String monitoringApproach;
+    String owner;
+    String nextDueDate;
+    String nextStatus;
+    String previousDueDate;
+    String previousStatus;
+    String action;
+    Obligation()
+}
